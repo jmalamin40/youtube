@@ -30,4 +30,8 @@ class HomeController extends Controller
         // echo '</pre>';
         return view('frontend.pages.index', array('data'=>$content));
     }
+    public function videoDetails(Request $resquest){
+        $videoId = $resquest->videoId;
+        return view('frontend.pages.video_details', array('videoId'=>$videoId));
+    }
 }

@@ -1770,87 +1770,8 @@ Help &amp; Legal
 <div class='clear'></div>
 <!-- <div class='hero-image'> <b:class cond='data:skin.vars.body_background.image' name='has-image'/> </div> -->
 <div class='section-main-post-blog p-0' id='dv-sec-module-main'><!-- section-main-post-blog -->
-<!-- Results Message Space Original -->
-<!-- END -->
-<div class='container overflow-hidden pt-0 pt-lg-3'>
-<div class='row'>
-<div class='col-12 col-sm-12 col-md-12 col-lg px-0 px-sm-2 page-body-wrap'>
-<main class='main-wrapper page-body-main dv-post-home' id='main' role='main' tabindex='-1'>
-<!-- Results Message Space Original -->
-<h2 class='main-heading'>Posts</h2>
-<div class='theme-options section' id='theme-option-sec-03' name='Theme Option - Latest Posts'><div class='widget HTML' data-version='2' id='HTML18'>
-  <style type='text/css'>
-    .noHideBlogPosts .section-main-post-blog {display: none;}
-  </style>
-</div></div>
-<div class='main w-100 section' id='page_body' name='Page body'><div class='widget Text' data-version='2' id='Text3'>
-<div class='heading-head d-flex text-start align-items-center'>
-<a href='/search'>
-<h3 class='title'>
-Latest Posts
-</h3>
-</a>
-<a class='view-more' href='/search'> View All <span class='more-icon-post'></span></a>
-</div>
-</div><div class='widget Blog' data-version='2' id='Blog1'>
-<div class='blog-posts hfeed container' >
-
-  @yield('content')
+@yield('content')
     
-</div>
-<div class='blog-pager container' id='blog-pager'>
-<nav aria-label='Page navigation'>
-<ul class='pagination flex-row justify-content-center align-items-center mt-5'>
-<li class='page-item'>
-<a class='blog-pager-older-link' href='https://davidews-white.blogspot.com/search?updated-max=2021-08-01T09:07:00-07:00&amp;max-results=10' id='Blog1_blog-pager-older-link' title='Older Posts'>
-Older Posts
-</a>
-<button class='post-pagination-icons' href='https://davidews-white.blogspot.com/search?updated-max=2021-08-01T09:07:00-07:00&amp;max-results=10' id='post-pagination-icons'>
-<svg class='bi bi-chevron-right' fill='currentColor' height='1em' viewBox='0 0 16 16' width='1em' xmlns='http://www.w3.org/2000/svg'>
-<path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z' fill-rule='evenodd'></path>
-</svg>
-</button>
-</li>
-</ul>
-</nav>
-</div>
-</div></div>
-<div class='theme-options section' id='theme-option-sec-04' name='Theme Option - Page Title'><div class='widget HTML' data-version='2' id='HTML11'>
-<style>
-                    .dv-page-title-wrap .dv-page-title-Image-wrap {
-                        background-position: left top; /* alineación */
-                    }
-                  </style>
-</div><div class='widget HTML' data-version='2' id='HTML12'>
-<style>
-                    .dv-page-title-wrap .dv-page-title-Image-wrap {
-                        background-repeat: no-repeat; /* alineación */
-                    }
-                  </style>
-</div><div class='widget HTML' data-version='2' id='HTML14'>
-<style>
-                    .dv-page-title-wrap .dv-page-title-Image-wrap {
-                        background-size: cover; /* tamaño */
-                    }
-                  </style>
-</div><div class='widget HTML' data-version='2' id='HTML21'>
-</div><div class='widget HTML' data-version='2' id='HTML15'>
-<style>
-                    .dv-page-title-overlay {
-                        opacity: 0.8; /* tamaño */
-                    }
-                  </style>
-</div></div>
-</main>
-</div>
-</div>
-</div>
-</div>
-<div class='clear'></div>
-<!-- ============ Posts section ============= -->
-
-<div class='clear'></div>
-</div>
 </div>
 <!-- Footer -->
 <div class='dv-footer-wrap overflow-hidden position-relative' id='dv-footer-wrap'>
@@ -2034,39 +1955,15 @@ Theme images by Farycreate
 var elemento=document.getElementsByClassName("blog-posts");for(var i=0;i<elemento.length;i++)elemento[i].className+=" row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-0 g-sm-3 h-auto";
     //]]>
     </script>
-<script type='text/javascript'>
-    //<![CDATA[
-    // agregar clase
-      var elemento=document.getElementsByClassName("section-post-left");for(var i=0;i<elemento.length;i++)elemento[i].className+=" main-post-home-space";
-    //]]>
-    </script>
-<script type='text/javascript'>
-    //<![CDATA[
-    // agregar clase
-var elemento=document.getElementsByClassName("blog-posts");for(var i=0;i<elemento.length;i++)elemento[i].classList.remove("container");
-var elemento=document.getElementsByClassName("search-icon");for(var i=0;i<elemento.length;i++)elemento[i].className+=" p-0";
-var elemento=document.getElementsByClassName("follow-by-email-address");for(var i=0;i<elemento.length;i++)elemento[i].className+=" h-auto";
-var elemento=document.getElementsByClassName("search-action");for(var i=0;i<elemento.length;i++)elemento[i].className+=" btn btn-primary";
-var elemento=document.getElementsByClassName("search label");for(var i=0;i<elemento.length;i++)elemento[i].className+=" btn btn-primary";
-var elemento=document.getElementsByClassName("follow-by-email-submit");for(var i=0;i<elemento.length;i++)elemento[i].className+=" btn btn-primary";
-var elemento=document.getElementsByClassName("wikipedia-search-button");for(var i=0;i<elemento.length;i++)elemento[i].className+=" btn btn-primary";
-var elemento=document.getElementsByClassName("contact-form-button-submit");for(var i=0;i<elemento.length;i++)elemento[i].className+=" btn btn-primary";
-    //]]>
-    </script>
+
+
 <script type='text/javascript'>
      //<![CDATA[
 $(document).ready(function(){$(".cookie-choices-button").addClass("btn btn-primary")});
 $(document).ready(function(){$(".contact-form-widget").addClass("widget-content")});
      //]]>
     </script>
-<script type='text/javascript'>
-     //<![CDATA[
-$(document).ready(function(){$(".FeaturedPost .post").addClass("container p-0 mb-4 d-inline-block position-relative")});
-$(document).ready(function(){$(".FeaturedPost .post-content").addClass("row d-flex align-items-center justify-content-center")});
-$(document).ready(function(){$(".FeaturedPost .thumb-link").addClass("col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6")});
-$(document).ready(function(){$(".FeaturedPost .post-text-container").addClass("col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-5")});
-     //]]>
-    </script>
+
 
 <script src='https://api.dmcdn.net/all.js'></script>
 <script src='https://cdn.jsdelivr.net/gh/farycreate/davidews@v1.0/dist/js/davidews.min.js'></script>
