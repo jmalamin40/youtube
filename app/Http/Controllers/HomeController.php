@@ -32,6 +32,23 @@ class HomeController extends Controller
     }
     public function videoDetails(Request $resquest){
         $videoId = $resquest->videoId;
-        return view('frontend.pages.video_details', array('videoId'=>$videoId));
+
+        $endpoint = "https://www.googleapis.com/youtube/v3/search";
+        $client = new \GuzzleHttp\Client();
+        
+        $response = $client->request('GET', $endpoint, ['query' => [
+            'maxResults' => 30, 
+            'key' => 'AIzaSyBKFTu3jmxX2ReC0CcoBxM4Lpbp8UxNt10',
+            'channelId'=>'UChlvpkKzkI7UYJdd-tW8ewg',
+            'part'=>'snippet,id',
+            'order'=>'date'
+        ]]);
+
+        $statusCode = $response->getStatusCode();
+        
+        $response_body = $response->getBody()->getContents();
+        $content = json_decode($response_body);
+
+        return view('frontend.pages.video_details', array('videoId'=>$videoId, 'data'=>$content->items));
     }
 }
