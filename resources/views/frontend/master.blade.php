@@ -7,7 +7,7 @@
 <title>Davidews Light - Video Blogger Theme</title>
 <!-- Meta Tag -->
 <!-- Metadata Twitter -->
-<meta content='Davidews Light - Video Blogger Theme' property='og:site_name'/><meta content='https://davidews-white.blogspot.com/' name='twitter:domain'/><meta content='' name='twitter:title'/>
+<meta content='Davidews Light - Video Blogger Theme' property='og:site_name'/><meta content="{{URL::to('/')}}" name='twitter:domain'/><meta content='' name='twitter:title'/>
 <meta content='summary' name='twitter:card'/>
 <meta content='' name='twitter:title'/>
 <!-- Social Media meta tag need customer customization -->
@@ -39,7 +39,7 @@
 <meta content='#ffffff' name='msapplication-navbutton-color'/>
 <meta content='blogger' name='generator'/>
 <link href='https://davidews-white.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='https://davidews-white.blogspot.com/' rel='canonical'/>
+<link href="{{URL::to('/')}}" rel='canonical'/>
 <link rel="alternate" type="application/atom+xml" title="Davidews Light - Video Blogger Theme - Atom" href="https://davidews-white.blogspot.com/feeds/posts/default" />
 <link rel="alternate" type="application/rss+xml" title="Davidews Light - Video Blogger Theme - RSS" href="https://davidews-white.blogspot.com/feeds/posts/default?alt=rss" />
 <link rel="service.post" type="application/atom+xml" title="Davidews Light - Video Blogger Theme - Atom" href="https://www.blogger.com/feeds/4846952164827575621/posts/default" />
@@ -1459,7 +1459,7 @@ Skip to main content
 <div class='navbar-brand mr-0 mr-lg-3 mr-xl-3'>
 <div class='section' id='header' name='Brand/Logo'><div class='widget Header' data-version='2' id='Header1'>
 <div class='header-widget'>
-<a class='header-image-wrapper' href='https://davidews-white.blogspot.com/'>
+<a class='header-image-wrapper' href="{{URL::to('/')}}">
 <img alt='Davidews Light - Video Blogger Theme' data-original-height='26' data-original-width='137' src='https://1.bp.blogspot.com/-ZYxw6cZiVhM/YNtyhThLxPI/AAAAAAAADrY/MF7EmMOJHaUxe-_T8dfsvOccaax01sO1QCLcBGAsYHQ/logo-davidews.png' srcset='https://1.bp.blogspot.com/-ZYxw6cZiVhM/YNtyhThLxPI/AAAAAAAADrY/MF7EmMOJHaUxe-_T8dfsvOccaax01sO1QCLcBGAsYHQ/w120/logo-davidews.png 120w, https://1.bp.blogspot.com/-ZYxw6cZiVhM/YNtyhThLxPI/AAAAAAAADrY/MF7EmMOJHaUxe-_T8dfsvOccaax01sO1QCLcBGAsYHQ/w240/logo-davidews.png 240w, https://1.bp.blogspot.com/-ZYxw6cZiVhM/YNtyhThLxPI/AAAAAAAADrY/MF7EmMOJHaUxe-_T8dfsvOccaax01sO1QCLcBGAsYHQ/w480/logo-davidews.png 480w, https://1.bp.blogspot.com/-ZYxw6cZiVhM/YNtyhThLxPI/AAAAAAAADrY/MF7EmMOJHaUxe-_T8dfsvOccaax01sO1QCLcBGAsYHQ/w640/logo-davidews.png 640w, https://1.bp.blogspot.com/-ZYxw6cZiVhM/YNtyhThLxPI/AAAAAAAADrY/MF7EmMOJHaUxe-_T8dfsvOccaax01sO1QCLcBGAsYHQ/w800/logo-davidews.png 800w'/>
 </a>
 <div class='replaced'>
@@ -1498,7 +1498,7 @@ Davidews
 <div class='align-items-center justify-content-center'>
 <div class='fc-feat1-main-story section' id='searchPushTop1' name='Search Box - Main'><div class='widget BlogSearch' data-version='2' id='BlogSearch1'>
 <div class='widget-content' role='search'>
-<form action='https://davidews-white.blogspot.com/search' target='_top'>
+<form action="{{URL::to('/')}}/search" target='_top'>
 <div class='search-input'>
 <input aria-label='Search this blog' autocomplete='off' name='q' placeholder='Search this blog' value=''/>
 </div>
@@ -1517,7 +1517,7 @@ Davidews
 </div>
 <div class='fc-feat1-main-story w-100 section' id='searchPushTop2' name='Search Box - Mobile'><div class='widget BlogSearch' data-version='2' id='BlogSearch3'>
 <div class='widget-content' role='search'>
-<form action='https://davidews-white.blogspot.com/search' target='_top'>
+<form action="{{URL::to('/')}}search" target='_top'>
 <div class='search-input'>
 <input aria-label='Search this blog' autocomplete='off' name='q' placeholder='Search this blog' value=''/>
 </div>
@@ -1611,7 +1611,7 @@ Davidews
 <div class='navbar-brand me-0'>
 <div class='section' id='header2' name='Brand/Logo'><div class='widget Header' data-version='2' id='Header2'>
 <div class='header-widget'>
-<a class='header-image-wrapper' href='https://davidews-white.blogspot.com/'>
+<a class='header-image-wrapper' href="{{URL::to('/')}}">
 <img alt='Davidews Light - Video Blogger Theme' data-original-height='26' data-original-width='137' src='https://1.bp.blogspot.com/-GLE4h0ui_Fg/YNty7z2OcYI/AAAAAAAADrk/nohLPvzy1rEYhrKPQBKhGePkI6qKFJMHwCLcBGAsYHQ/logo-davidews.png' srcset='https://1.bp.blogspot.com/-GLE4h0ui_Fg/YNty7z2OcYI/AAAAAAAADrk/nohLPvzy1rEYhrKPQBKhGePkI6qKFJMHwCLcBGAsYHQ/w120/logo-davidews.png 120w, https://1.bp.blogspot.com/-GLE4h0ui_Fg/YNty7z2OcYI/AAAAAAAADrk/nohLPvzy1rEYhrKPQBKhGePkI6qKFJMHwCLcBGAsYHQ/w240/logo-davidews.png 240w, https://1.bp.blogspot.com/-GLE4h0ui_Fg/YNty7z2OcYI/AAAAAAAADrk/nohLPvzy1rEYhrKPQBKhGePkI6qKFJMHwCLcBGAsYHQ/w480/logo-davidews.png 480w, https://1.bp.blogspot.com/-GLE4h0ui_Fg/YNty7z2OcYI/AAAAAAAADrk/nohLPvzy1rEYhrKPQBKhGePkI6qKFJMHwCLcBGAsYHQ/w640/logo-davidews.png 640w, https://1.bp.blogspot.com/-GLE4h0ui_Fg/YNty7z2OcYI/AAAAAAAADrk/nohLPvzy1rEYhrKPQBKhGePkI6qKFJMHwCLcBGAsYHQ/w800/logo-davidews.png 800w'/>
 </a>
 <div class='replaced'>
